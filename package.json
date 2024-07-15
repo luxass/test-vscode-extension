@@ -9,7 +9,7 @@
     "url": "https://luxass.dev"
   },
   "publisher": "luxass",
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.5.0",
   "license": "MIT",
   "homepage": "https://github.com/luxass/test-vscode-extension",
   "repository": {
@@ -47,12 +47,12 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^4.4.3",
-    "@types/vscode": "^1.68.0",
-    "@vscode/vsce": "^2.21.1",
-    "eslint": "^9.2.0",
-    "eslint-plugin-format": "^0.1.1",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5"
+    "@luxass/eslint-config": "^4.9.0",
+    "@types/vscode": "^1.91.0",
+    "@vscode/vsce": "^2.30.0",
+    "eslint": "^9.7.0",
+    "eslint-plugin-format": "^0.1.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
   }
 }
