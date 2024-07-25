@@ -1,3 +1,5 @@
 # test-vscode-extension
 
-This VSCode extension is just for testing purposes only.
+> [!NOTE]
+> This is a test VSCode extension, it is not intended for production use.
+> It is only used to test the VSCode extension publishing process using CI
