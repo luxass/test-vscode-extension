@@ -1,12 +1,13 @@
-import type { ExtensionContext } from 'vscode'
-import { commands, window } from 'vscode'
+import { defineExtension, useCommand, useLogger } from "reactive-vscode";
+import { window } from "vscode";
 
-export function activate(ctx: ExtensionContext) {
-  ctx.subscriptions.push(
-    commands.registerCommand('test-extension.hello', async () => {
-      window.showInformationMessage('Hello!')
-    }),
-  )
-}
+const { activate, deactivate } = defineExtension(() => {
+  const logger = useLogger("test-extension");
+  logger.info("Extension Activated");
 
-export function deactivate() { }
+  useCommand("test-extension.hello", () => {
+    window.showInformationMessage("Hello World!");
+  });
+});
+
+export { activate, deactivate };
