@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@luxass/eslint-config':
         specifier: ^4.9.0
-        version: 4.10.0(@vue/compiler-sfc@3.4.27)(eslint-plugin-format@0.1.2(eslint@9.7.0))(eslint@9.7.0)(typescript@5.5.4)
+        version: 4.10.2(@vue/compiler-sfc@3.4.27)(eslint-plugin-format@0.1.2(eslint@9.7.0))(eslint@9.7.0)(typescript@5.5.4)
       '@types/vscode':
         specifier: ^1.91.0
         version: 1.91.0
@@ -345,8 +345,8 @@ packages:
     resolution: {integrity: sha512-f5DRIOZf7wxogefH03RjMPMdBF7ADTWUMoOs9kaJo06EfwF+aFhMZMDZxHg/Xe12hptN9xoZjGso2fdjapBRIA==}
     engines: {node: '>=10'}
 
-  '@luxass/eslint-config@4.10.0':
-    resolution: {integrity: sha512-1Q1QjrcbedjSBOOvh8BC2S5r/A9YdcE+7rPl/1qXkvef3OndWQ5KJ0ORr03l3FMh/tO9QS4A8apkNAGlNkyEog==}
+  '@luxass/eslint-config@4.10.2':
+    resolution: {integrity: sha512-1d2Kd36E3AgHNO9/6srk229qiWJ/ALBD1HnLRDijYW65FsRG8SYppnly+j0lphYICNhqjXBX/yaM1eQBUc1d2A==}
     engines: {node: '>=18'}
     peerDependencies:
       '@eslint-react/eslint-plugin': ^1.5.8
@@ -2673,7 +2673,7 @@ snapshots:
       string-argv: 0.3.2
       type-detect: 4.1.0
 
-  '@luxass/eslint-config@4.10.0(@vue/compiler-sfc@3.4.27)(eslint-plugin-format@0.1.2(eslint@9.7.0))(eslint@9.7.0)(typescript@5.5.4)':
+  '@luxass/eslint-config@4.10.2(@vue/compiler-sfc@3.4.27)(eslint-plugin-format@0.1.2(eslint@9.7.0))(eslint@9.7.0)(typescript@5.5.4)':
     dependencies:
       '@antfu/install-pkg': 0.3.3
       '@clack/prompts': 0.7.0
