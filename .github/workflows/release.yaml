@@ -33,3 +33,13 @@ jobs:
           registry: vs-marketplace
           debug: true
           dry-run: true
+
+      - name: Publish to Visual Studio Marketplace (File)
+        uses: luxass/publish-vscode-extension@main
+        with:
+          # token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          token: your-token
+          registry: vs-marketplace
+          debug: true
+          dry-run: true
+          extensionPath: test-vscode-extension-0.0.4.vsix
