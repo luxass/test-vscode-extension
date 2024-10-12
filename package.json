@@ -20,6 +20,12 @@
     "url": "https://github.com/luxass/test-vscode-extension/issues"
   },
   "main": "./dist/extension.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "package.json"
+  ],
   "engines": {
     "vscode": "^1.94.0"
   },
