@@ -25,14 +25,10 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Publish to Open VSX Registry
-        uses: luxass/publish-vscode-extension@main
-        with:
-          token: ${{ secrets.OPEN_VSX_TOKEN }}
-          registry: open-vsx
-
       - name: Publish to Visual Studio Marketplace
         uses: luxass/publish-vscode-extension@main
         with:
           token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registry: vs-marketplace
+          debug: true
+          dry-run: true
