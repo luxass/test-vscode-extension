@@ -41,3 +41,21 @@ jobs:
           debug: true
           dry-run: true
           extensionPath: test-vscode-extension-0.0.4.vsix
+
+      - name: Publish to Open VSX
+        uses: luxass/publish-vscode-extension@main
+        with:
+          token: ${{ secrets.OPENVSX_MARKETPLACE_TOKEN }}
+          registry: open-vsx
+          debug: true
+          dry-run: false
+
+      - name: Publish to Open VSX (File)
+        uses: luxass/publish-vscode-extension@main
+        with:
+          token: ${{ secrets.OPENVSX_MARKETPLACE_TOKEN }}
+          registry: open-vsx
+          debug: true
+          dry-run: true
+          extensionPath: test-vscode-extension-0.0.4.vsix
+
