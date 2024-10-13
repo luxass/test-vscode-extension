@@ -40,8 +40,8 @@ jobs:
           registry: vs-marketplace
           debug: true
           dry-run: true
-          extensionPath: test-vscode-extension-0.0.4.vsix
-          targets: vs-marketplace, vs-marketplace-staging
+          extension-path: test-vscode-extension-0.0.4.vsix
+          targets: "win32-x64, linux-x64, linux-arm64, darwin-x64, darwin-arm64"
 
       - name: Publish to Open VSX
         uses: luxass/publish-vscode-extension@main
@@ -58,7 +58,5 @@ jobs:
           registry: open-vsx
           debug: true
           dry-run: true
-          extensionPath: test-vscode-extension-0.0.4.vsix
-          targets: |
-            - open-vsx
-            - open-vsx-staging
+          extension-path: test-vscode-extension-0.0.4.vsix
+          targets: "win32-x64, linux-x64, linux-arm64, darwin-x64, darwin-arm64"
