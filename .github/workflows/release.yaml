@@ -41,7 +41,7 @@ jobs:
           debug: true
           dry-run: true
           extensionPath: test-vscode-extension-0.0.4.vsix
-          target: vs-marketplace, vs-marketplace-staging
+          targets: vs-marketplace, vs-marketplace-staging
 
       - name: Publish to Open VSX
         uses: luxass/publish-vscode-extension@main
@@ -59,6 +59,6 @@ jobs:
           debug: true
           dry-run: true
           extensionPath: test-vscode-extension-0.0.4.vsix
-          target: |
+          targets: |
             - open-vsx
             - open-vsx-staging
