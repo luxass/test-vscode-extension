@@ -9,7 +9,7 @@
     "url": "https://luxass.dev"
   },
   "publisher": "luxass",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@10.5.0",
   "license": "MIT",
   "homepage": "https://github.com/luxass/test-vscode-extension",
   "repository": {
