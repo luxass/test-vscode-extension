@@ -18,10 +18,10 @@ importers:
         specifier: 3.2.1
         version: 3.2.1
       eslint:
-        specifier: ^9.12.0
+        specifier: 9.13.0
         version: 9.13.0
       eslint-plugin-format:
-        specifier: ^1.0.0
+        specifier: 1.0.1
         version: 1.0.1(eslint@9.13.0)
       reactive-vscode:
         specifier: 0.2.6
