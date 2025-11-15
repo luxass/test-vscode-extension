@@ -52,7 +52,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "5.0.0",
+    "@luxass/eslint-config": "6.0.3",
     "@types/vscode": "1.94.0",
     "@vscode/vsce": "3.2.1",
     "eslint": "^9.12.0",
