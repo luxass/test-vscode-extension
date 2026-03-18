@@ -12,8 +12,8 @@ importers:
         specifier: 6.0.3
         version: 6.0.3(@vue/compiler-sfc@3.4.27)(eslint-plugin-format@1.0.1(eslint@9.13.0))(eslint@9.13.0)(typescript@5.9.3)
       '@types/vscode':
-        specifier: 1.109.0
-        version: 1.109.0
+        specifier: 1.110.0
+        version: 1.110.0
       '@vscode/vsce':
         specifier: 3.7.1
         version: 3.7.1
@@ -25,7 +25,7 @@ importers:
         version: 1.0.1(eslint@9.13.0)
       reactive-vscode:
         specifier: 0.4.1
-        version: 0.4.1(@types/vscode@1.109.0)
+        version: 0.4.1(@types/vscode@1.110.0)
       tsup:
         specifier: 8.5.1
         version: 8.5.1(postcss@8.4.47)(typescript@5.9.3)(yaml@2.8.1)
@@ -688,8 +688,8 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@types/vscode@1.109.0':
-    resolution: {integrity: sha512-0Pf95rnwEIwDbmXGC08r0B4TQhAbsHQ5UyTIgVgoieDe4cOnf92usuR5dEczb6bTKEp7ziZH4TV1TRGPPCExtw==}
+  '@types/vscode@1.110.0':
+    resolution: {integrity: sha512-AGuxUEpU4F4mfuQjxPPaQVyuOMhs+VT/xRok1jiHVBubHK7lBRvCuOMZG0LKUwxncrPorJ5qq/uil3IdZBd5lA==}
 
   '@typescript-eslint/eslint-plugin@8.46.3':
     resolution: {integrity: sha512-sbaQ27XBUopBkRiuY/P9sWGOWUW4rl8fDoHIUmLpZd8uldsTyB4/Zg6bWTegPoTLnKj9Hqgn3QD6cjPNB32Odw==}
@@ -3381,7 +3381,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@types/vscode@1.109.0': {}
+  '@types/vscode@1.110.0': {}
 
   '@typescript-eslint/eslint-plugin@8.46.3(@typescript-eslint/parser@8.46.3(eslint@9.13.0)(typescript@5.9.3))(eslint@9.13.0)(typescript@5.9.3)':
     dependencies:
@@ -5336,10 +5336,10 @@ snapshots:
       strip-json-comments: 2.0.1
     optional: true
 
-  reactive-vscode@0.4.1(@types/vscode@1.109.0):
+  reactive-vscode@0.4.1(@types/vscode@1.110.0):
     dependencies:
       '@reactive-vscode/reactivity': 0.4.1
-      '@types/vscode': 1.109.0
+      '@types/vscode': 1.110.0
 
   read-pkg@9.0.1:
     dependencies:
